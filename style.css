@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vidaloka', serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.notes{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/list.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.container{
+    height: 100%;
+    width: 65%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    color: white;
+    /* margin-top: 300px; */
+}
+button{
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    border: none;
+    background-image: url(./img/Untitled-2\ copy.png);
+    background-size: cover;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+form{
+    width: 80%;
+}
+.list{
+    width: 80%;
+}
+.lis{
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: -20px;
+    
+}
+.hat{
+    height: 30px;
+}
+.knife{
+    height: 50px;
+}
